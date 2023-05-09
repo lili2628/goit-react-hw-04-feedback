@@ -1,0 +1,29 @@
+
+
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+}
+
+.btn {
+    padding-left: 15px;
+    padding-right: 15px;
+
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: white;
+    background-color: brown;
+    border: 1px solid #741b47;
+    border-radius: 2px;
+}
+
+
+.btn:not(:last-child) {
+    margin-right: 15px;;
+}
